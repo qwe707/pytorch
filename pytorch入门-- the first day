@@ -1,0 +1,43 @@
+#不小心忘记保存上一次的
+今天继续整理学习情况，今天用到pycharm的一键注释，想起上次面试都不会，（ctrl+/）
+第一天学习张量
+import torch
+from numexpr.expressions import double
+
+# x=torch.rand(5,3)
+# print(x)
+# x=torch.empty(5,3)
+# print(x)
+# x=torch.tensor(5)
+# print(x)
+# x=torch.zeros(5,3,dtype=torch.long)
+# print(x)
+# x=torch.tensor([5.5,3])
+# print(x)
+# x=x.new_ones(5,3,dtype=torch.double)
+# print(x)
+# x=torch.randn_like(x,dtype=torch.float)
+# print(x)
+# print(x.size())
+# x=torch.Size([5,3])
+# print(x)
+# print(x[0])
+# x=torch.zeros(5,3)
+# y=torch.rand(5,3)
+# print(torch.add(x,y))
+# result=torch.empty(5,3)
+# torch.add(x,y,out=result)
+# print(result)
+# #add x to y
+# y.add(x)
+# print(y)
+# print(x[:,1])
+# x=torch.randn(4,4)
+# y=x.view(16)
+# z=x.view(-1,8)
+# print(x.size(),y.size(),z.size())
+#使用items获得这个值
+x=torch.rand(1)
+print(x)
+print(x.item())
+今天就学这些，去力扣刷题去了
