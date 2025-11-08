@@ -5,7 +5,7 @@
 ## 📚 目录结构
 
 ### 1. PyTorch基础
-- **[PyTorch基础教程.md](PyTorch基础教程.md)** - 系统学习PyTorch核心概念
+- **[PyTorch-Basics-Tutorial.md](PyTorch-Basics-Tutorial.md)** - 系统学习PyTorch核心概念
   - 张量(Tensor)操作与GPU加速
   - 自动梯度(Autograd)机制
   - 神经网络模块(nn.Module)构建
@@ -13,7 +13,7 @@
   - 数据加载与处理技巧
 
 ### 2. 深度强化学习
-- **[DDQN深度强化学习教程.md](DDQN深度强化学习教程.md)** - 从零开始学习DDQN
+- **[DDQN-Reinforcement-Learning-Tutorial.md](DDQN-Reinforcement-Learning-Tutorial.md)** - 从零开始学习DDQN
   - 强化学习基础概念
   - Q-Learning算法原理
   - DQN (Deep Q-Network)详解
